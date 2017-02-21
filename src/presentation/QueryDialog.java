@@ -42,32 +42,32 @@ public class QueryDialog extends JDialog {
 		panel.add(lblmaquina);
 		panel.add(maquina);
 
-		lblfecha = new JLabel(Constants.MACHINE);
+		lblfecha = new JLabel(Constants.DATE);
 		fecha = new JTextField();
 		panel.add(lblfecha);
 		panel.add(fecha);
 
-		lbltipoActuacion = new JLabel(Constants.MACHINE);
+		lbltipoActuacion = new JLabel(Constants.ACTUATION_TYPE);
 		tipoActuacion = new JTextField();
 		panel.add(lbltipoActuacion);
 		panel.add(tipoActuacion);
 
-		lblactuacion = new JLabel(Constants.MACHINE);
+		lblactuacion = new JLabel(Constants.ACTUATION);
 		actuacion = new JTextField();
 		panel.add(lblactuacion);
 		panel.add(actuacion);
 
-		lblcoste = new JLabel(Constants.MACHINE);
+		lblcoste = new JLabel(Constants.COST);
 		coste = new JTextField();
 		panel.add(lblcoste);
 		panel.add(coste);
 
-		lbltiempo = new JLabel(Constants.MACHINE);
+		lbltiempo = new JLabel(Constants.TIME);
 		tiempo = new JTextField();
 		panel.add(lbltiempo);
 		panel.add(tiempo);
 
-		lblcomentario = new JLabel(Constants.MACHINE);
+		lblcomentario = new JLabel(Constants.COMENT);
 		comentario = new JTextField();
 		panel.add(lblcomentario);
 		panel.add(comentario);
