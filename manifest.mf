@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Main-Class: logic.Launcher
+Class-Path: sqlite-jdbc-3.14.2.1.jar
+Sealed: true
