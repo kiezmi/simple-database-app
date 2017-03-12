@@ -9,13 +9,8 @@ git clone git@github.com:osmuogar/simple-database-app.git
 cd simple-database-app
 make
 ```
-Once the application has been builded you can rename and move the folder <package_name> inside dist.
+Once the application has been builded you can rename and move the folder simple-database-app-<version> inside dist.
 
 ## Usage
 
-Execute it in the terminal with:
-
-```
-cd simple-database-app/dist/<package_name>
-java -jar <package_name>.jar
-```
+Just double click on the script at dist/simple-database-app-<version>/simple-database-app.sh

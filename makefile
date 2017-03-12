@@ -1,5 +1,5 @@
 #Package details
-NAME = simple-database
+NAME = simple-database-app
 VERSION = 1.0.0
 PACKAGE_NAME = $(NAME)-$(VERSION)
 
@@ -7,6 +7,7 @@ PACKAGE_NAME = $(NAME)-$(VERSION)
 OUT_DIR = lib
 DIST_DIR = dist
 SRC_DIR = src
+BIN_DIR = bin
 
 JCC = javac
 JFLAGS = -g -d $(OUT_DIR)
@@ -18,6 +19,9 @@ MKDIR_P = mkdir -p
 default: directories all
 	cd $(OUT_DIR) && jar cmf ../manifest.mf ../$(DIST_DIR)/$(PACKAGE_NAME)/$(PACKAGE_NAME).jar .
 	cp dependencies/sqlite* $(DIST_DIR)/$(PACKAGE_NAME)/
+	cp $(BIN_DIR)/* $(DIST_DIR)/$(PACKAGE_NAME)/
+	chmod +x $(DIST_DIR)/$(PACKAGE_NAME)/*.sh
+
 
 #Compile all program sources
 all:
