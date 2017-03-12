@@ -17,7 +17,7 @@ MKDIR_P = mkdir -p
 #Compile all program and make executable file
 default: directories all
 	cd $(OUT_DIR) && jar cmf ../manifest.mf ../$(DIST_DIR)/$(PACKAGE_NAME)/$(PACKAGE_NAME).jar .
-	cp sqlite* $(DIST_DIR)/$(PACKAGE_NAME)/
+	cp dependencies/sqlite* $(DIST_DIR)/$(PACKAGE_NAME)/
 
 #Compile all program sources
 all:
