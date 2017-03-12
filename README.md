@@ -13,7 +13,7 @@ Once the application has been builded you can rename and move the folder <packag
 
 ## Usage
 
-Just double click on <package_name>.jar inside dist/<package_name> or you can execute it in the terminal with
+Execute it in the terminal with:
 
 ```
 cd simple-database-app/dist/<package_name>
