@@ -16,7 +16,7 @@ public class Constants {
 	public static final int DATABASE_TIMEOUT = 10; // 10 segundos
 
 	// Main window
-	public static final String ADD = "ANYADIR";
+	public static final String ADD = "AÑADIR";
 	public static final String QUERY = "BUSCAR";
 	public static final String EDIT = "EDITAR";
 
